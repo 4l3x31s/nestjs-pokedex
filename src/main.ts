@@ -17,6 +17,6 @@ async function bootstrap() {
     })
   );
 
-  await app.listen(process.env.PORT_POKEMON);
+  await app.listen(process.env.PORT);
 }
 bootstrap();
